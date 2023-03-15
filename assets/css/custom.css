@@ -1,0 +1,12 @@
+.section::-webkit-scrollbar-thumb {
+    border: 5px solid transparent;
+    border-radius: 100px;
+    background-color: #8070d4;
+    background-clip: content-box;
+  }
+
+  @media all and (min-width: 800px) and (max-width: 2000px) {
+    .centerdown {
+      place-content: center !important;
+    }
+  }
